@@ -1,0 +1,112 @@
+
+.main-ctr {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* .ctr {
+    width: 360px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    border: 2px ;
+    border-radius: 4px;
+} */
+
+.ctr-1 { 
+    flex: 30%;
+    width: 360px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    border: 2px ;
+    border-radius: 4px;
+}
+
+.ctr-2 { 
+    flex: 30%;
+    width: 360px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    border: 2px ;
+    border-radius: 4px;
+}
+
+.ctr-3 { 
+    flex: 30%;
+    width: 360px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    border: 2px ;
+    border-radius: 4px;
+}
+
+.extra {
+      display: flex;
+      flex-wrap: wrap;
+
+}
+
+.ctr-4 { 
+    /* flex: 30%; */
+    width: 360px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    border: 2px ;
+    border-radius: 4px;
+}
+
+.ctr-5 { 
+    /* flex: 30%; */
+    width: 360px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    border: 2px ;
+    border-radius: 4px;
+}
+
+img {
+    width: 360px;
+    height: 272px;
+    background:none;
+}
+.text {
+    padding: 10px;
+    
+}
+button {
+    background-color: palevioletred;
+    margin-left: 10px;
+    border-color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* .image {
+    width: 120px;
+    height: 280px;
+}
+
+.button {
+    width: 172px;
+    height: 36px;
+} */
