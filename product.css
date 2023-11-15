@@ -1,112 +1,57 @@
 
 .main-ctr {
     display: flex;
-    flex-direction: row;
-    justify-content: start;
     flex-wrap: wrap;
-    gap: 1rem;
+    justify-content: space-around;
+   
 }
 
-/* .ctr {
-    width: 360px;
-    height: 480px;
+.ctr {
+    width: 30%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 4px;
+}
+
+.add-container {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2rem;
-    border: 2px ;
-    border-radius: 4px;
-} */
-
-.ctr-1 { 
-    flex: 30%;
-    width: 360px;
-    height: 480px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2rem;
-    border: 2px ;
-    border-radius: 4px;
-}
-
-.ctr-2 { 
-    flex: 30%;
-    width: 360px;
-    height: 480px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2rem;
-    border: 2px ;
-    border-radius: 4px;
-}
-
-.ctr-3 { 
-    flex: 30%;
-    width: 360px;
-    height: 480px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2rem;
-    border: 2px ;
-    border-radius: 4px;
-}
-
-.extra {
-      display: flex;
-      flex-wrap: wrap;
+    flex-direction: column;
+    align-items: left;
+    padding: 1px;
+    border: 1px;
+    align-self: baseline;
 
 }
 
-.ctr-4 { 
-    /* flex: 30%; */
-    width: 360px;
-    height: 480px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2rem;
-    border: 2px ;
-    border-radius: 4px;
-}
-
-.ctr-5 { 
-    /* flex: 30%; */
-    width: 360px;
-    height: 480px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2rem;
-    border: 2px ;
-    border-radius: 4px;
-}
-
-img {
-    width: 360px;
-    height: 272px;
-    background:none;
-}
-.text {
-    padding: 10px;
-    
-}
 button {
+    margin: 10px;
     background-color: palevioletred;
-    margin-left: 10px;
-    border-color: white;
     padding: 5px;
     border-radius: 4px;
+    border-color: white;
+
 }
 
-/* .image {
-    width: 120px;
-    height: 280px;
+.text {
+    padding: 10px;
+    font-family: sans-serif;
 }
 
-.button {
-    width: 172px;
-    height: 36px;
-} */
+
+@media (max-width:768px)  {
+   .main-ctr{
+       flex-direction: column;
+       width: 100%;
+      
+   }
+    .ctr {
+       width: 100%;
+       margin-bottom: 10px;
+
+    }
+   }
